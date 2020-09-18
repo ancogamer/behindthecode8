@@ -1,7 +1,31 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
+  <component name="BranchesTreeState">
+    <expand>
+      <path>
+        <item name="ROOT" type="e8cecc67:BranchNodeDescriptor" />
+        <item name="LOCAL_ROOT" type="e8cecc67:BranchNodeDescriptor" />
+      </path>
+      <path>
+        <item name="ROOT" type="e8cecc67:BranchNodeDescriptor" />
+        <item name="REMOTE_ROOT" type="e8cecc67:BranchNodeDescriptor" />
+      </path>
+      <path>
+        <item name="ROOT" type="e8cecc67:BranchNodeDescriptor" />
+        <item name="REMOTE_ROOT" type="e8cecc67:BranchNodeDescriptor" />
+        <item name="GROUP_NODE:origin" type="e8cecc67:BranchNodeDescriptor" />
+      </path>
+    </expand>
+    <select />
+  </component>
   <component name="ChangeListManager">
-    <list default="true" id="357193bf-e2e6-443b-b3ea-3f486534cee8" name="Default Changelist" comment="" />
+    <list default="true" id="357193bf-e2e6-443b-b3ea-3f486534cee8" name="Default Changelist" comment="">
+      <change beforePath="$PROJECT_DIR$/.gitignore.txt" beforeDir="false" afterPath="$PROJECT_DIR$/.gitignore" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/go.mod" beforeDir="false" afterPath="$PROJECT_DIR$/go.mod" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/go.sum" beforeDir="false" afterPath="$PROJECT_DIR$/go.sum" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/main.go" beforeDir="false" afterPath="$PROJECT_DIR$/main.go" afterDir="false" />
+    </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
     <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
@@ -15,6 +39,9 @@
     </option>
   </component>
   <component name="GOROOT" path="C:\Go" />
+  <component name="Git.Settings">
+    <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
+  </component>
   <component name="GoLibraries">
     <option name="indexEntireGoPath" value="false" />
   </component>
@@ -31,7 +58,7 @@
     <property name="go.import.settings.migrated" value="true" />
     <property name="go.sdk.automatically.set" value="true" />
     <property name="go.tried.to.enable.integration.vgo.integrator" value="true" />
-    <property name="last_opened_file_path" value="$USER_HOME$" />
+    <property name="last_opened_file_path" value="$PROJECT_DIR$" />
     <property name="restartRequiresConfirmation" value="false" />
   </component>
   <component name="RunManager">
@@ -44,23 +71,54 @@
       <directory value="$PROJECT_DIR$" />
       <method v="2" />
     </configuration>
-    <configuration name="go build main.go" type="GoApplicationRunConfiguration" factoryName="Go Application" nameIsGenerated="true">
+    <configuration name="go build main.go" type="GoApplicationRunConfiguration" factoryName="Go Application" temporary="true" nameIsGenerated="true">
       <module name="behindthecode20208" />
       <working_directory value="$PROJECT_DIR$" />
       <go_parameters value="-i" />
       <envs>
         <env name="APIKEY_BEHINDCODE8" value="OWd06FqR1A3GvCgLcjFa_oPsnukQdg3G5QJ1PPF9g6Nn" />
         <env name="URL1_BEHINDCODE8" value="https://api.us-south.speech-to-text.watson.cloud.ibm.com/instances/f08b2150-33df-4ff6-a06a-eb2418d51d25" />
+        <env name="APIKEY1_BEHINDCODE8" value="YKG4OpxVjSkkJCEdxRt0F053rdFT3IBeMxi_8Vj3MkzM" />
+        <env name="URL2_BEHINDCODE8" value="https://api.us-south.natural-language-understanding.watson.cloud.ibm.com/instances/556c4eb8-c0ae-431f-815f-f3fc74503d53" />
+        <env name="MODELOID" value="5af7a266-34ac-43c8-bef6-e3cb5bd08163" />
       </envs>
       <kind value="FILE" />
       <filePath value="$PROJECT_DIR$/main.go" />
       <directory value="$PROJECT_DIR$" />
       <method v="2" />
     </configuration>
+    <configuration default="true" type="GoTestRunConfiguration" factoryName="Go Test">
+      <module name="behindthecode20208" />
+      <working_directory value="$PROJECT_DIR$" />
+      <go_parameters value="-i" />
+      <framework value="gotest" />
+      <kind value="DIRECTORY" />
+      <package value="ibm" />
+      <directory value="$PROJECT_DIR$" />
+      <filePath value="$PROJECT_DIR$" />
+      <method v="2" />
+    </configuration>
+    <recent_temporary>
+      <list>
+        <item itemvalue="Go Build.go build main.go" />
+      </list>
+    </recent_temporary>
   </component>
   <component name="SpellCheckerSettings" RuntimeDictionaries="0" Folders="0" CustomDictionaries="0" DefaultDictionary="application-level" UseSingleDictionary="true" transferred="true" />
   <component name="TypeScriptGeneratedFilesManager">
     <option name="version" value="3" />
+  </component>
+  <component name="Vcs.Log.Tabs.Properties">
+    <option name="TAB_STATES">
+      <map>
+        <entry key="MAIN">
+          <value>
+            <State />
+          </value>
+        </entry>
+      </map>
+    </option>
+    <option name="oldMeFiltersMigrated" value="true" />
   </component>
   <component name="VgoProject">
     <integration-enabled>true</integration-enabled>
@@ -70,41 +128,60 @@
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
     <state x="762" y="353" key="#Go_Modules/0.0.1920.1040@0.0.1920.1040" timestamp="1600041340047" />
-    <state x="424" y="175" width="1092" height="714" key="#com.intellij.execution.impl.EditConfigurationsDialog" timestamp="1600039919242">
+    <state x="495" y="326" width="1092" height="714" key="#com.intellij.execution.impl.EditConfigurationsDialog" timestamp="1600389042640">
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
-    <state x="424" y="175" width="1092" height="714" key="#com.intellij.execution.impl.EditConfigurationsDialog/0.0.1920.1040@0.0.1920.1040" timestamp="1600039919242" />
-    <state x="837" y="282" width="559" height="489" key="EnvironmentVariablesDialog" timestamp="1600039908823">
+    <state x="495" y="326" width="1092" height="714" key="#com.intellij.execution.impl.EditConfigurationsDialog/0.0.1920.1040@0.0.1920.1040" timestamp="1600389042640" />
+    <state x="837" y="282" width="1012" height="489" key="EnvironmentVariablesDialog" timestamp="1600389041413">
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
-    <state x="837" y="282" width="559" height="489" key="EnvironmentVariablesDialog/0.0.1920.1040@0.0.1920.1040" timestamp="1600039908823" />
-    <state width="1840" height="258" key="GridCell.Tab.0.bottom" timestamp="1600046442916">
+    <state x="837" y="282" width="1012" height="489" key="EnvironmentVariablesDialog/0.0.1920.1040@0.0.1920.1040" timestamp="1600389041413" />
+    <state width="1877" height="203" key="GridCell.Tab.0.bottom" timestamp="1600390283537">
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
-    <state width="1840" height="258" key="GridCell.Tab.0.bottom/0.0.1920.1040@0.0.1920.1040" timestamp="1600046442916" />
-    <state width="1840" height="258" key="GridCell.Tab.0.center" timestamp="1600046442916">
+    <state width="1877" height="203" key="GridCell.Tab.0.bottom/0.0.1920.1040@0.0.1920.1040" timestamp="1600390283537" />
+    <state width="1877" height="203" key="GridCell.Tab.0.center" timestamp="1600390283537">
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
-    <state width="1840" height="258" key="GridCell.Tab.0.center/0.0.1920.1040@0.0.1920.1040" timestamp="1600046442916" />
-    <state width="1840" height="258" key="GridCell.Tab.0.left" timestamp="1600046442916">
+    <state width="1877" height="203" key="GridCell.Tab.0.center/0.0.1920.1040@0.0.1920.1040" timestamp="1600390283537" />
+    <state width="1877" height="203" key="GridCell.Tab.0.left" timestamp="1600390283537">
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
-    <state width="1840" height="258" key="GridCell.Tab.0.left/0.0.1920.1040@0.0.1920.1040" timestamp="1600046442916" />
-    <state width="1840" height="258" key="GridCell.Tab.0.right" timestamp="1600046442916">
+    <state width="1877" height="203" key="GridCell.Tab.0.left/0.0.1920.1040@0.0.1920.1040" timestamp="1600390283537" />
+    <state width="1877" height="203" key="GridCell.Tab.0.right" timestamp="1600390283537">
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
-    <state width="1840" height="258" key="GridCell.Tab.0.right/0.0.1920.1040@0.0.1920.1040" timestamp="1600046442916" />
+    <state width="1877" height="203" key="GridCell.Tab.0.right/0.0.1920.1040@0.0.1920.1040" timestamp="1600390283537" />
     <state x="573" y="130" key="com.intellij.openapi.editor.actions.MultiplePasteAction$ClipboardContentChooser" timestamp="1600042502679">
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
     <state x="573" y="130" key="com.intellij.openapi.editor.actions.MultiplePasteAction$ClipboardContentChooser/0.0.1920.1040@0.0.1920.1040" timestamp="1600042502679" />
+    <state x="120" y="100" width="1700" height="840" key="dock-window-1" timestamp="1600091018270">
+      <screen x="0" y="0" width="1920" height="1040" />
+    </state>
+    <state x="120" y="100" width="1700" height="840" key="dock-window-1/0.0.1920.1040@0.0.1920.1040" timestamp="1600091018270" />
     <state x="677" y="253" width="585" height="534" key="find.popup" timestamp="1600042515446">
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
     <state x="677" y="253" width="585" height="534" key="find.popup/0.0.1920.1040@0.0.1920.1040" timestamp="1600042515446" />
-    <state x="692" y="432" key="vcs.readOnlyHandler.ReadOnlyStatusDialog" timestamp="1600042599146">
+    <state x="623" y="225" key="search.everywhere.popup" timestamp="1600097183392">
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
-    <state x="692" y="432" key="vcs.readOnlyHandler.ReadOnlyStatusDialog/0.0.1920.1040@0.0.1920.1040" timestamp="1600042599146" />
+    <state x="623" y="225" key="search.everywhere.popup/0.0.1920.1040@0.0.1920.1040" timestamp="1600097183392" />
+    <state x="692" y="432" key="vcs.readOnlyHandler.ReadOnlyStatusDialog" timestamp="1600095166672">
+      <screen x="0" y="0" width="1920" height="1040" />
+    </state>
+    <state x="692" y="432" key="vcs.readOnlyHandler.ReadOnlyStatusDialog/0.0.1920.1040@0.0.1920.1040" timestamp="1600095166672" />
+  </component>
+  <component name="XDebuggerManager">
+    <breakpoint-manager>
+      <breakpoints>
+        <line-breakpoint enabled="true" type="DlvLineBreakpoint">
+          <url>file://$USER_HOME$/go/pkg/mod/github.com/!i!b!m/go-sdk-core@v1.1.0/core/base_service.go</url>
+          <line>16</line>
+          <option name="timeStamp" value="2" />
+        </line-breakpoint>
+      </breakpoints>
+    </breakpoint-manager>
   </component>
 </project>
